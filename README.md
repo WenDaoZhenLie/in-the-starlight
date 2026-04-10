@@ -1,4 +1,50 @@
-# 项目：星光里的我们（更新至 Day24）
+# 项目：星光里的我们
+
+当前仓库文案进度：`Day25`
+
+当前数据复盘表更新到：`Day24`
+
+## 0. 文档导航
+
+- `README.md`：账号定位、内容复盘、主题记忆库、未来规划、自动化思路
+- `docs/README.md`：项目文档总览，回答“信息应该去哪里找”
+- `docs/production/content-production-guide.md`：内容生产规范，回答“内容具体怎么生产”
+- `docs/interaction/comment-library.md`：评论库，供后续评论回复自动化调用
+- `docs/automation/knowledge-map.md`：自动化知识地图，回答“不同自动化任务应该读哪些文档”
+- `docs/design/canva-design-guide.md`：通用 Canva 配图指南，包含素材、页数和配图流程
+- `content/DayN.md`：单篇成稿文案
+- `img/DayN/`：单篇图文配图切片
+
+## 0.1 项目结构
+
+```text
+.
+├── README.md
+├── docs/
+│   ├── README.md
+│   ├── automation/
+│   │   └── knowledge-map.md
+│   ├── design/
+│   │   └── canva-design-guide.md
+│   ├── interaction/
+│   │   └── comment-library.md
+│   └── production/
+│       └── content-production-guide.md
+├── content/
+│   └── Day1.md ... Day25.md
+└── img/
+    ├── Day1/ ... Day24/
+    ├── background.png
+    ├── guidance_background.png
+    └── logo.png
+```
+
+说明：
+
+- `README.md` 保留为“总策略文档”，不再承担全部执行说明。
+- 具体执行流程、文件规范、发布与复盘检查，统一查看 `docs/production/content-production-guide.md`。
+- 评论回复相关知识、分类和模板，统一沉淀到 `docs/interaction/comment-library.md`。
+- 如果后续接 AI 自动化，先看 `docs/automation/knowledge-map.md`。
 
 ## 一、账号基础信息
 
@@ -38,7 +84,7 @@
 
 每篇内容仍需保持“温柔理性”底色，但结构可随内容流动。
 
-## 三、已发布内容复盘（截至Day22）
+## 三、已发布内容复盘（截至Day24）
 
 ### 3.1 数据总览
 
